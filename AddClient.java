@@ -50,7 +50,7 @@ public class AddClient {
             Statement statement = dbHandler.dbConnection.createStatement();
             int rowsAffected = statement.executeUpdate(deleteQuery);
 
-            System.out.println("Строка с авто успешн    о удалена. Марка и модель занесены в таблицу.");
+            System.out.println("Строка с авто успешно удалена. Марка и модель занесены в таблицу.");
         } catch (SQLException e) {
             e.printStackTrace();
         }
